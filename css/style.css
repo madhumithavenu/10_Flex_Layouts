@@ -32,5 +32,27 @@ h2 {
     padding: 1rem;
 }
 
+.page{
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.page > *{
+    padding: 1rem;
+}
+.page .heading{
+    background-color: #CDDC39;
+}
+.main-content{
+    background-color: #B3DFD8;
+    flex: 1;
+}
+.page .footer{
+    background-color: #212121;
+    color: white;
+}
+
 
 
